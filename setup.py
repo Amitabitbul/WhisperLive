@@ -43,18 +43,9 @@ setup(
     ),
     install_requires=[
         "PyAudio",
-        "faster-whisper==1.0.1",
-        "torch",
-        "torchaudio",
-        "websockets",
-        "onnxruntime==1.16.0",
-        "ffmpeg-python",
         "scipy",
         "websocket-client",
-        "numba",
-        "openai-whisper",
-        "kaldialign",
-        "soundfile",
+        "ffmpeg-python"
     ],
     python_requires=">=3.8"
 )
